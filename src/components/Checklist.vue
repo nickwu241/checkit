@@ -4,7 +4,7 @@
       <input type="text" v-model="listname">
     </p>
     <transition name="fade">
-    <h5 v-if="sharing">{{ API_URL + '?name=' + listname }}</h5>
+    <h5 v-if="sharing"><a :href="OUR_URL + '?name=' + listname">{{ OUR_URL + '?name=' + listname }}</a></h5>
     </transition>
     <vue-button-spinner
       :isLoading="saving"
@@ -45,6 +45,7 @@ if (document.URL.includes('/checklist')) {
 }
 // const = 'http://localhost:8080'
 const BASE_URL = 'http://3d5a79cd.ngrok.io'
+const OUR_URL = 'http://5a1d3cc0.ngrok.io/checklist'
 export default {
   name: 'Checklist',
   components: {
@@ -54,6 +55,7 @@ export default {
     return {
       firstId: id,
       listname: id || 'default',
+      OUR_URL: OUR_URL,
       API_URL: BASE_URL + '/checklist',
       checklist: [],
       shouldUpdate: true,
