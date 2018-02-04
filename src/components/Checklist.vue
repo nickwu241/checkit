@@ -44,7 +44,7 @@ if (document.URL.includes('/checklist')) {
   console.log('ID:', id)
 }
 // const = 'http://localhost:8080'
-const BASE_URL = 'http://066892d0.ngrok.io'
+const BASE_URL = 'http://3d5a79cd.ngrok.io'
 export default {
   name: 'Checklist',
   components: {
