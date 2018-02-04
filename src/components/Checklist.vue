@@ -73,8 +73,7 @@ export default {
             this.checklist = r.items
           }
         })
-      }
-      else {
+      } else {
         this.fetchItems()
         // fetch(this.API_URL + '?default=true').then(r => {
         //   return r.json()
