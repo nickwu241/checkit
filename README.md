@@ -1,6 +1,6 @@
 # checkit
 
-> Sharable and Resuable Checklists
+> A real-time collaborative, sharable and reusable checklist for any platform
 
 [QHacks 2018 Devpost Submission](https://devpost.com/software/check-it-uaqs45)
 
