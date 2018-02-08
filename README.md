@@ -2,7 +2,7 @@
 
 > Sharable and Resuable Checklists
 
-(QHacks 2018 Devpost Submission)[https://devpost.com/software/check-it-uaqs45]
+[QHacks 2018 Devpost Submission](https://devpost.com/software/check-it-uaqs45)
 
 ## Build Setup
 
