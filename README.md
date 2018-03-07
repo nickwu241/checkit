@@ -4,6 +4,8 @@
 
 [QHacks 2018 Devpost Submission](https://devpost.com/software/check-it-uaqs45)
 
+<img src="/demo/web.png" width="270" height="480"/>
+
 ## Build Setup
 
 ``` bash
